@@ -46,6 +46,13 @@
 import 'core-js/es7/reflect';
 
 
+
+import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/switchMapTo';
+import 'rxjs/add/observable/combineLatest';
+
+
 /**
  * Required to support Web Animations `@angular/platform-browser/animations`.
  * Needed for: All but Chrome, Firefox and Opera. http://caniuse.com/#feat=web-animation

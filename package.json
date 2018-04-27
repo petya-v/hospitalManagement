@@ -4,8 +4,9 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": " ng serve & npm run start-database",
     "build": "ng build --prod",
+    "start-database" : "json-server --watch db.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
