@@ -1,0 +1,7 @@
+<h3>Specialties:</h3>
+<ol>
+  <li *ngFor="let speciality of specialities">
+    {{speciality?.name}}
+    <button (click)="removeSpeciality(speciality.id)">x</button>
+  </li>
+</ol>

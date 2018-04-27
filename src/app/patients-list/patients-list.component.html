@@ -1,0 +1,18 @@
+<a [routerLink]="'/dashboard'">Back To Dashboard</a>
+<h2>Patients List</h2>
+<table>
+  <thead>
+  <tr>
+    <td>Name</td>
+    <td>Surname</td>
+    <td>Details</td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let patient of patients">
+    <td>{{patient?.name}}</td>
+    <td>{{patient?.surname}}</td>
+    <td><button [routerLink]="'/patient-details/'+ patient.id">Info</button></td>
+  </tr>
+  </tbody>
+</table>

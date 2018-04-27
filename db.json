@@ -1,0 +1,338 @@
+{
+  "patients": [
+    {
+      "id": 0,
+      "name": "Tonya",
+      "surname": "Ayala",
+      "assignedClinicians": [
+        0,
+        11,
+        1,
+        6,
+        0
+      ],
+      "conditions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Noreen",
+      "surname": "Campbell",
+      "assignedClinicians": [],
+      "conditions": []
+    },
+    {
+      "id": 2,
+      "name": "Mcgowan",
+      "surname": "Vega",
+      "assignedClinicians": [
+        11
+      ],
+      "conditions": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tommie",
+      "surname": "Acosta",
+      "assignedClinicians": [],
+      "conditions": []
+    },
+    {
+      "id": 4,
+      "name": "Marshall",
+      "surname": "Maxwell",
+      "assignedClinicians": [
+        0
+      ],
+      "conditions": [
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mattie",
+      "surname": "Wise",
+      "assignedClinicians": [],
+      "conditions": []
+    },
+    {
+      "id": 6,
+      "name": "Waller",
+      "surname": "Dotson",
+      "assignedClinicians": [
+        12
+      ],
+      "conditions": [
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Simmons",
+      "surname": "Moran",
+      "assignedClinicians": [
+        9
+      ],
+      "conditions": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mendoza",
+      "surname": "Montoya",
+      "assignedClinicians": [
+        1
+      ],
+      "conditions": [
+        4
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Diann",
+      "surname": "Bright",
+      "assignedClinicians": [
+        5,
+        8
+      ],
+      "conditions": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Baxter",
+      "surname": "Marsh",
+      "assignedClinicians": [
+        9
+      ],
+      "conditions": [
+        4
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Maxwell",
+      "surname": "Dennis",
+      "assignedClinicians": [],
+      "conditions": []
+    },
+    {
+      "id": 12,
+      "name": "Thornton",
+      "surname": "Benjamin",
+      "assignedClinicians": [
+        6
+      ],
+      "conditions": [
+        3
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Alisa",
+      "surname": "Herrera",
+      "assignedClinicians": [],
+      "conditions": []
+    },
+    {
+      "id": 14,
+      "name": "Gladys",
+      "surname": "Chapman",
+      "assignedClinicians": [
+        10
+      ],
+      "conditions": [
+        3
+      ]
+    }
+  ],
+  "clinicians": [
+    {
+      "id": 0,
+      "name": "Reyna",
+      "surname": "Griffin",
+      "specialities": [
+        4
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Georgette",
+      "surname": "Gay",
+      "specialities": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Parsons",
+      "surname": "Garrison",
+      "specialities": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Wells",
+      "surname": "Zamora",
+      "specialities": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Campbell",
+      "surname": "Ford",
+      "specialities": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Morrison",
+      "surname": "Whitfield",
+      "specialities": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ila",
+      "surname": "Dale",
+      "specialities": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Potts",
+      "surname": "Nunez",
+      "specialities": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Crawford",
+      "surname": "Mack",
+      "specialities": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Laurie",
+      "surname": "Sweeney",
+      "specialities": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Watts",
+      "surname": "Ayers",
+      "specialities": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Denise",
+      "surname": "Mann",
+      "specialities": [
+        4
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cantu",
+      "surname": "Mullins",
+      "specialities": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Rhoda",
+      "surname": "Hurst",
+      "specialities": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Erna",
+      "surname": "Navarro",
+      "specialities": [
+        2
+      ]
+    },
+    {
+      "name": "Jane",
+      "surname": "Mason",
+      "specialities": [],
+      "id": 15
+    },
+    {
+      "id": 16,
+      "name": "Bill",
+      "surname": "Reynolds",
+      "specialities": []
+    },
+    {
+      "id": 17,
+      "name": "Pufff",
+      "surname": "Hufff",
+      "specialities": []
+    },
+    {
+      "id": 18,
+      "name": "ddsdfffs",
+      "surname": "sffaefaf",
+      "specialities": []
+    }
+  ],
+  "conditions": [
+    {
+      "id": 0,
+      "name": "Asthma"
+    },
+    {
+      "id": 1,
+      "name": "High blood pressure"
+    },
+    {
+      "id": 2,
+      "name": "Common Cold"
+    },
+    {
+      "id": 3,
+      "name": "Allergy"
+    },
+    {
+      "id": 4,
+      "name": "Conjunctivitis"
+    }
+  ]
+}

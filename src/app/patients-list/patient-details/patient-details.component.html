@@ -1,0 +1,5 @@
+<a [routerLink]="'/patients-list'">Back To Patients List</a><br>
+<label>Name: {{patient?.name}}</label><br>
+<label>Surname: {{patient?.surname}}</label>
+<app-conditions *ngIf="patient" [patientId]="patient.id"></app-conditions>
+<app-clinicians *ngIf="patient" [patientId]="patient.id"></app-clinicians>

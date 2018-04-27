@@ -1,0 +1,9 @@
+<div>
+  <h3>Conditions:</h3>
+  <ul>
+    <li *ngFor="let condition of getPatientConditions$() | async">
+      {{condition?.name}}
+      <button>x</button>
+    </li>
+  </ul>
+</div>

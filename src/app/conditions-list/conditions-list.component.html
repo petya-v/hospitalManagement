@@ -1,0 +1,11 @@
+<div>
+  <h2>Conditions List:</h2>
+  <a [routerLink]="'/dashboard'">Back To Dashboard</a>
+  <app-add-condition></app-add-condition>
+  <ol>
+    <li *ngFor="let condition of conditions">
+      {{condition?.name}}
+      <button (click)="removeCondition(condition.id)">x</button>
+    </li>
+  </ol>
+</div>

@@ -1,0 +1,21 @@
+<div *ngIf="clinicians">
+  <a [routerLink]="'/dashboard'">Back To Dashboard</a>
+  <app-add-clinician></app-add-clinician>
+  <h2>Clinicians List</h2>
+  <table>
+    <thead>
+    <tr>
+      <td>Name</td>
+      <td>Surname</td>
+      <td>Details</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let clinician of clinicians" >
+      <td>{{clinician.name}}</td>
+      <td>{{clinician.surname}}</td>
+      <td><button [routerLink]="'/clinician-details/' + clinician.id">Info</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

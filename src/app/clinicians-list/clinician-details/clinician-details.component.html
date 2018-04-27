@@ -1,0 +1,5 @@
+<a [routerLink]= "'/clinicians-list'">Back To Clinicians List</a><br>
+<label>Name: {{clinician?.name}}</label><br>
+<label>Surname: {{clinician?.surname}}</label>
+<app-specialties *ngIf="clinician" [clinicianReceived]="clinician" [newSpecialityAdded]="specialityAdded"></app-specialties>
+<app-add-specialty *ngIf="clinician" [clinicianId]="clinician.id" (newSpecialityAdded)="updateSpecialities($event)"></app-add-specialty>
